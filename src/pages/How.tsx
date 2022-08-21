@@ -44,7 +44,7 @@ const How = () => {
         color="#512bd4"
         icon={<NetLogo />}
         name=".NET"
-        type="C# Frameworks"
+        type="C# Framework"
         useCase={
           'Cross-platform platform for creating multiple applications'
         }
