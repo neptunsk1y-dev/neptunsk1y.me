@@ -1,9 +1,7 @@
 import PageWrapper from './PageWrapper';
 import Co from '../components/Co';
 import styled from 'styled-components';
-import HivenAppIcon from '../assets/images/hiven-app-icon.png';
-import GigglAppIcon from '../assets/images/giggl-app-icon.jpg';
-import HonkAppIcon from '../assets/images/honk-app-icon.jpg';
+import NightRadioIcon from '../assets/images/nightradio.png';
 import Repo from '../components/Repo';
 import { Helmet } from 'react-helmet';
 
@@ -18,39 +16,27 @@ const Where = () => {
       <CoWrapper>
         <Co
           url="https://neptscript.me"
-          name="NeptScript"
-          iconReference={HivenAppIcon}
-          tagline="only C#"
-          role={'Founder & Developer'}
-          what={'Company of C# developers.'}
+          name="NightRadio"
+          iconReference={NightRadioIcon}
+          tagline="own small company"
+          role={'devloper & ceo'}
+          what={"A small team to write a bot and a website"}
           acquired
         />
       </CoWrapper>
 
       <h3>Open-source Projects</h3>
       <Repo
-        name={'nestjs-bookmarks-api'}
-        url={'https://github.com/Neptunsk1y/nestjs-bookmarks-api'}
+        name={'neptunsk1y.me'}
+        url={'https://github.com/Neptunsk1y/neptunsk1y.me'}
         primaryLanguage={'TypeScript'}
-        description="a CRUD REST API with end-to-end tests using modern web development techniques"
+        description="my personal website"
       />
       <Repo
         name={'discord-fire-bot'}
         url={'https://github.com/Neptunsk1y/discord-fire-bot'}
         primaryLanguage={'Python'}
         description="FireBot is a Discord Moderation Bot"
-      />
-      <Repo
-        name={'registration-verification-app-csharp'}
-        url={'https://github.com/Neptunsk1y/registration-verification-app-csharp'}
-        primaryLanguage={'С#'}
-        description="The registration and authorization form has a Captcha with automatic updating."
-      />
-      <Repo
-        name={'neptunsk1y.me'}
-        url={'https://github.com/Neptunsk1y/neptunsk1y.me'}
-        primaryLanguage={'TypeScript'}
-        description="my personal website"
       />
     </PageWrapper>
   );

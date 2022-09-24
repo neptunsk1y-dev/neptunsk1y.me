@@ -9,6 +9,7 @@ import Home from './pages/Home';
 import Presence from './pages/Presence';
 import Where from './pages/Where';
 import How from './pages/How';
+import Etc from './pages/Etc';
 import { ChevronsRight } from './components/Icons';
 
 const shouldPlayIntro = window.location.pathname === '/';
@@ -85,6 +86,7 @@ function App() {
                 <Route exact path="/where" component={Where} />
                 <Route exact path="/presence" component={Presence} />
                 <Route exact path="/how" component={How} />
+                <Route exact path="/etc" component={Etc} />
               </Switch>
             </AnimatePresence>
           </ContentWrapper>

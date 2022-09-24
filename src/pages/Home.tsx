@@ -19,16 +19,12 @@ const Home = () => {
         y/o software developer.
       </p>
       <p>
-        I develop, build and publish products of quality and reliability. Currently, I'm a CEO
-        and developer at{' '}
-        <a href="https://neptscript.me" target="norel noopen">
-          NeptScript
-        </a>
-        .
+      I study Java and Spring.
       </p>
       <h3>A little about me</h3>
 
-      <p>I'm a beginner Software developer and high school student, currently learning C# and TypeScript. My Discord profile: nept#3127.</p>
+      <p>I design, create and publish my high-quality and reliable pet-projects. Currently I want to find a team for a small Java project
+        In my free time, I development soft skills. My goal is to work in the Russian company Sberbank, my discord: neptunsk1y#7777</p>
 
     </PageWrapper>
   );

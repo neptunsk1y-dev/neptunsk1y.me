@@ -1,13 +1,10 @@
 import PageWrapper from './PageWrapper';
 import Technology from '../components/Technology';
 import {
-  CSLogo,
-  NestJSLogo,
-  NetLogo,
-  RabbitMQLogo,
+  JavaLogo,
   ReactLogo,
-  RustLogo,
-  SolidityLogo,
+  SpringLogo,
+  GitLogo,
   TypescriptLogo,
 } from '../components/Icons';
 import { Helmet } from 'react-helmet';
@@ -20,50 +17,54 @@ const How = () => {
       </Helmet>
       <h1>How I Do It</h1>
       <p>
-        I highly leverage new bleeding-edge technologies and languages like Elixir to stay on top of
+        I highly leverage new bleeding-edge technologies and languages like Java to stay on top of
         the game. You can find a list of my most-used technologies below.
       </p>
 
+
       <Technology
-        color="#390090"
-        icon={<CSLogo />}
-        name="C#"
-        type="Software, Backend"
-        useCase={'to replace Java and develop cool soft'}
+        color="#18171b"
+        icon={<JavaLogo />}
+        name="Java"
+        type="Backend, System"
+        useCase={
+          "Build simple, reliable, and efficient software."
+        }
       />
+
 
       <Technology
         color="#232340"
         icon={<ReactLogo />}
         name="React"
         type="Frontend framework"
-        useCase={'Constructing stateful and durable frontends for large and interactive web apps'}
+        useCase={'A popular framework for working with templates'}
       />
 
+      
       <Technology
-        color="#512bd4"
-        icon={<NetLogo />}
-        name=".NET"
-        type="C# Framework"
-        useCase={
-          'Cross-platform platform for creating multiple applications'
-        }
+        color="#77bc1f"
+        icon={<SpringLogo />}
+        name="Spring"
+        type="Java Framework, Study"
+        useCase={'Allows you to create Java applications faster and more conveniently'}
       />
+
 
       <Technology
         color="#007acc"
         icon={<TypescriptLogo />}
         name="TypeScript"
         type="JS Framework"
-        useCase={'Types for JS - will save your life when projects expand'}
+        useCase={'To work with the frontend for backend development'}
       />
 
       <Technology
-        color="#e0234e"
-        icon={<NestJSLogo />}
-        name="Nest.js"
-        type="Backend, Node.js Framework"
-        useCase={'Accelerates and simplifies the development of scalable server applications'}
+        color="#f34f29"
+        icon={<GitLogo />}
+        name="Git"
+        type="Version Control"
+        useCase={'Version control to track changes in files'}
       />
     </PageWrapper>
   );
