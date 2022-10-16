@@ -26,7 +26,7 @@ const How = () => {
         color="#18171b"
         icon={<JavaLogo />}
         name="Java"
-        type="Backend, System"
+        type="Backend, Study"
         useCase={
           "Build simple, reliable, and efficient software."
         }
@@ -39,15 +39,6 @@ const How = () => {
         name="React"
         type="Frontend framework"
         useCase={'A popular framework for working with templates'}
-      />
-
-      
-      <Technology
-        color="#77bc1f"
-        icon={<SpringLogo />}
-        name="Spring"
-        type="Java Framework, Study"
-        useCase={'Allows you to create Java applications faster and more conveniently'}
       />
 
 
