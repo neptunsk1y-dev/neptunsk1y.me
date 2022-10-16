@@ -37,7 +37,7 @@ const logLanyardEvent = (eventName: string, data: any) => {
   );
 };
 
-const discordId = '973904464396288034';
+const discordId = '951062428085530624';
 
 const Doing = (
   { setActive, ...props }: { setActive: (active: boolean) => void } & any,
