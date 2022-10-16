@@ -124,7 +124,7 @@ const Nav = () => {
           </div>
 
           <Icons>
-            <a href="https://discord.gg/RvPsKWayrB">
+            <a href="https://discord.gg/9CS3dCDBMa">
               <DiscordLogo />
             </a>
             <a href="https://github.com/Neptunsk1y">
