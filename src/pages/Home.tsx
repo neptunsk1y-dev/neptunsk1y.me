@@ -19,11 +19,11 @@ const Home = () => {
         y/o software developer.
       </p>
       <p>
-      I study Java.
+      I study Python and TypeScript
       </p>
       <h3>A little about me</h3>
 
-      <p>I design, create and publish my high-quality and reliable pet-projects. Currently I want to find a team for a small Java project
+      <p>I design, create and publish my high-quality and reliable pet-projects. Currently I want to find a team for a small Python project
         In my free time, I development soft skills. My goal is to work in the Russian company Sberbank, my discord: neptunsk1y#6666</p>
 
     </PageWrapper>

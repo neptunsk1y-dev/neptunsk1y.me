@@ -1,11 +1,11 @@
 import PageWrapper from './PageWrapper';
 import Technology from '../components/Technology';
 import {
-  JavaLogo,
+  PythonLogo,
   ReactLogo,
-  SpringLogo,
-  GitLogo,
+  NestLogo,
   TypescriptLogo,
+  PrismaLogo
 } from '../components/Icons';
 import { Helmet } from 'react-helmet';
 
@@ -17,16 +17,16 @@ const How = () => {
       </Helmet>
       <h1>How I Do It</h1>
       <p>
-        I highly leverage new bleeding-edge technologies and languages like Java to stay on top of
+        I highly leverage new bleeding-edge technologies and languages like Python and TypeScript to stay on top of
         the game. You can find a list of my most-used technologies below.
       </p>
 
 
       <Technology
         color="#18171b"
-        icon={<JavaLogo />}
-        name="Java"
-        type="Backend, Study"
+        icon={<PythonLogo />}
+        name="Python"
+        type="Data, Backend"
         useCase={
           "Build simple, reliable, and efficient software."
         }
@@ -51,12 +51,21 @@ const How = () => {
       />
 
       <Technology
-        color="#f34f29"
-        icon={<GitLogo />}
-        name="Git"
-        type="Version Control"
-        useCase={'Version control to track changes in files'}
+        color="#151515"
+        icon={<NestLogo />}
+        name="Nest.js"
+        type="Backend, Requests"
+        useCase={'Building efficient, reliable and scalable server-side applications.'}
       />
+
+      <Technology
+        color="#677eeb"
+        icon={<PrismaLogo />}
+        name="Prisma"
+        type="TypeScript ORM"
+        useCase={'Makes working with databases easy'}
+      />
+
     </PageWrapper>
   );
 };
